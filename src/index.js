@@ -1,3 +1,5 @@
+import "./css/common.css";
+
 class Game {
   name = "Violin Charades";
 }
@@ -11,3 +13,4 @@ heading.textContent = "Interesting";
 
 const app = document.querySelector("#root");
 app.append(heading, p);
+console.log("Privet");
